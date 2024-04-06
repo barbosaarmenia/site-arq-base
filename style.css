@@ -1,0 +1,29 @@
+h1{
+    font-size: 63px;
+    color: beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:olive;
+}
+h3{
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    color: slategrey;
+    padding: top -50px;
+}
+
+.container img { 
+    max-width: 1200px; 
+}
+
+#teste{
+    position:relative;
+    top:0;
+    align-items: center;
+}
+#teste:hover{
+    top:-4px;
+    box-shadow:0 4px 4px #999;
+   transition: all .2s ease-in-out
+}
